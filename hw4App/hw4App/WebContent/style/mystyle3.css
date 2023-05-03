@@ -1,0 +1,164 @@
+body{
+	background-color:#d9d9d9;
+	color:#555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin: 0;
+}
+
+#mainHeader{
+	background-color:#7c0e0e;
+	color:#fff;
+}
+
+#mainHeader h1{
+	padding: 0;
+	text-align: center;
+}
+
+.container{
+	width:100%;
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.row{
+	margin:0 10px;
+	display: flex;
+}
+
+.row2{
+	margin: 10px 15px 10px 15px ;
+	border-radius: 4px;
+	color: black;
+	width: auto;
+}
+
+.food_cat{
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	color: black;
+}
+
+.food_cat h3{
+	margin-left: 5px;
+	margin-top: 5px;
+}
+
+.food_item{
+	width: auto;
+	margin: 5px 5px 10px 10px ;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.food_item b{
+	margin-left: 5px;
+}
+
+.food_item h5{
+	margin-left: 5px;
+}
+
+
+.column1{
+	height: 350px;
+	background-color: white;
+	margin: 10px 0 0 5px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	flex: 20%;
+	border-radius: 4px;
+	color: black;
+}
+
+.column2{
+	background-color: white;
+	margin: 10px 0 0 5px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	flex: 70%;
+	border-radius: 4px;
+	color: black;
+}
+
+.column1 input{
+	margin-left: 10px;
+}
+
+
+.column3{
+	text-align: center;
+	height: 350px;
+	background-color: white;
+	margin: 10px 0 0 5px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	flex: 20%;
+	border-radius: 4px;
+	color: black;
+}
+
+.store_desc{
+	width: 550px;
+	height: 200px;
+	background-color: white;
+	margin: auto;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0px 3px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	color: black;
+}
+
+.store_desc h2, h4{
+	padding-top: 15px;
+	text-align: center;
+	color: black;
+}
+
+.categories_checkbox h4{
+	text-align: left;
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
+.categories_checkbox a{
+	margin-left: 15px;
+	display: block;
+}
+
+.continue input{
+	margin-left:10px;
+	margin-top:5px;
+	background-color:#7c0e0e;
+	color: white;
+	font-size: 20px;
+	border-radius: 4px;
+}
+
+.food_cart h5{
+	display: inline-block;
+}
+
+.cart_button{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+a:link{ 
+	color: #7c0e0e;	
+	text-decoration: none;
+}
+			
+a:visited{
+	color: #7c0e0e;	
+	text-decoration: none;
+}
+			
+a:hover{
+	color: #7c0e0e;	
+	text-decoration: none;
+}
+			
+a:active{
+	color: #7c0e0e;
+	text-decoration: none;
+}

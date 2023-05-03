@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Deli and Dine</title>
+	<link rel="stylesheet" href="style/mystyle.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header id="mainHeader">
+		<div class="container">
+			<h1>Deli & Dine</h1>
+		</div>
+	</header>
+
+	<div class="aboutContainer">
+		<p>Deli and Dine is a online delivery and reservation service. Our main goal is to provide a user friendly interface and make everything about delivery and dining easier and faster.</p>
+	</div>
+
+	<div class="r_l_container">
+		<div class="colum">
+			<div class="customer">
+				<h3>CUSTOMER</h3>
+				<h5>If you are not registered create a new account by pressing register.</h5>
+					<a href="#modal_r_customer" class="Register_click">Register</a>
+					
+					<div class="modal" id="modal_r_customer">
+						<div class="modal_content_r">
+							<a href="#" class="modal_close">X</a>
+							<div class="register">
+								<h3>Για να εγγραφείτε παρακαλώ συμπληρώστε τα παρακάτω στοιχεία.</h3>
+								<form class="my-form" action="RegisterCustomer">
+									<div class="r_l_container">
+									<div class="column">
+									<div class="row">
+										<label>Όνομα:</label>
+										<input type="text" name="fname" placeholder="Συμπληρώστε Όνομα">
+									</div>
+									<br>
+									<div class="row">
+										<label>Επώνυμο:</label>
+										<input type="text" name="lname" placeholder="Συμπληρώστε Επώνυμο">
+									</div>
+									<br>
+									<div class="row">
+										<label>Ηλικία:</label>
+										<input type="text" name="age" placeholder="Συμπληρώστε Ηλικία">
+									</div>
+									<br>
+									<div class="row">
+										<label>Διεύθυνση:</label>
+										<input type="text" name="address" placeholder="Συμπληρώστε Διεύθυνση">
+									</div>
+									<br>
+									</div>
+									<div class="column">
+									<div class="row">
+										<label>Τηλέφωνο:</label>
+										<input type="text" name="phone" placeholder="Συμπληρώστε Τηλέφωνο">
+									</div>
+									<br>
+									<div class="row">
+										<label>Email:</label>
+										<input type="email" name="email" placeholder="Συμπληρώστε Email">
+									</div>
+									<br>
+									<div class="row">
+										<label>Password:</label>
+										<input type="text" name="pswrd" placeholder="Συμπληρώστε Password">
+									</div>
+									<br>
+									</div>
+									</div>
+									<div class="column">
+										<br>
+										<div class="submit">
+											<input type="submit" value="Submit">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				<h5>Else simply press login.</h5>
+				<a href="#modal_l_customer" class="Register_click">Login</a>
+					
+					<div class="modal" id="modal_l_customer">
+						<div class="modal_content_l">
+							<a href="#" class="modal_close">X</a>
+							<div class="register">
+								<h3>Για να συνδεθείτε παρακαλώ συμπληρώστε τα παρακάτω στοιχεία.</h3>
+								<form class="my-form" action="LoginCustomer">
+									<div class="row">
+										<label>Email:</label>
+										<input type="email" name="cEmail" placeholder="Συμπληρώστε Email">
+									</div>
+									<br>
+									<div class="row">
+										<label>Password:</label>
+										<input type="text" name="cPwd" placeholder="Συμπληρώστε Password">
+									</div>
+									<br>
+									<div class="submit">
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+		<div class="colum">
+			<div class="store">
+				<h3>STORE</h3>
+				<h5>If you are not registered create a new account by pressing register.</h5>
+				<a href="#modal_r_store" class="Register_click">Register</a>
+					
+					<div class="modal" id="modal_r_store">
+						<div class="modal_content_r">
+							<a href="#" class="modal_close">X</a>
+							<div class="register">
+								<h3>Για να εγγραφείτε παρακαλώ συμπληρώστε τα παρακάτω στοιχεία.</h3>
+								<form class="my-form" action="RegisterStore">
+									<div class="r_l_container">
+									<div class="column">
+										<div class="row">
+											<label>Όνομα Καταστήματος:</label>
+											<input type="text" name="store_name" placeholder="Συμπληρώστε Όνομα">
+										</div>
+										<br>
+										<div class="row">
+											<label>Διεύθυνση:</label>
+											<input type="text" name="sAddress" placeholder="Συμπληρώστε Διεύθυνση">
+										</div>
+										<br>
+										<div class="row">
+											<label>Τηλέφωνο:</label>
+											<input type="text" name="sPhone" placeholder="Συμπληρώστε Τηλέφωνο">
+										</div>
+										<br>
+										<div class="row">
+											<label for="category">Κατηγορία φαγητού:</label>
+											<select id="category" name="category" multiple>
+												<option value="Σουβλάκια">Σουβλάκια</option>
+												<option value="Pizza">Pizza</option>
+												<option value="Crepe">Crepe</option>
+												<option value="Μαγειρευτά">Μαγειρευτά</option>
+												<option value="Grill">Grill</option>
+												<option value="Θαλλασινά">Θαλλασινά</option>
+												<option value="Καφές">Καφές</option>
+												<option value="Πρωινό">Πρωινό</option>
+												<option value="Vegan">Vegan</option>
+												<option value="Ζυμαρικά">Ζυμαρικά</option>
+												<option value="Burgers">Burgers</option>
+												<option value="Αρτοποιήματα">Αρτοποιήματα</option>
+											</select>
+										</div>
+										<br>
+									</div>
+									<br>
+									<div class="column">
+										<div class="row">
+											<label>Email:</label>
+											<input type="text" name="sEmail" placeholder="Συμπληρώστε Email">
+										</div>
+										<br>
+										<div class="row">
+											<label>Password:</label>
+											<input type="text" name="sPwd" placeholder="Συμπληρώστε Password">
+										</div>
+										<br>
+										<div class="row">
+											<label for="reservation">Δεχόμαστε κρατήσεις:</label>
+											<select id="reservation" name="reservation" multiple>
+												<option value="ΝΑΙ">ΝΑΙ</option>
+												<option value="ΟΧΙ">ΟΧΙ</option>
+											</select>
+										</div>
+									</div>
+									</div>
+									<div class="column">
+										<div class="submit">
+											<input type="submit" value="Submit">
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				<h5>Else simply press login.</h5>
+				<a href="#modal_l_store" class="Register_click">Login</a>
+					
+					<div class="modal" id="modal_l_store">
+						<div class="modal_content_l">
+							<a href="#" class="modal_close">X</a>
+							<div class="register">
+								<h3>Για να συνδεθείτε παρακαλώ συμπληρώστε τα παρακάτω στοιχεία.</h3>
+								<form class="my-form" action="LoginStore">
+									<div class="row">
+										<label>Email:</label>
+										<input type="text" name="slEmail" placeholder="Συμπληρώστε Email">
+									</div>
+									<br>
+									<div class="row">
+										<label>Password:</label>
+										<input type="text" name="slPwd" placeholder="Συμπληρώστε Password">
+									</div>
+									<br>
+									<div class="submit">
+										<input type="submit" value="Submit">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="info">
+		<div class="colum">
+			<div class="social">
+				<h3>Find us on social media.</h3>
+					<a href="" class="fa fa-facebook" ></a>
+					<a href="" class="fa fa-instagram"></a>	
+			</div>
+		</div>
+		<div class="colum">
+			<div class="r_l_container">
+				<div class="colum" style="box-shadow:none;">
+					<ul>
+						<li><a href="" >Who we are</a></li>
+						<li><a href="" >How it works</a></li>
+						<li><a href="" >FAQs</a></li>
+						<li><a href="" >Blog</a></li>
+						<li><a href="" >Contact us</a></li>
+						<li><a href="" >Terms of use</a></li>
+					</ul>
+				</div>
+				<div class="colum" style="box-shadow:none;">
+					<ul>
+						<li><a href="" >Allergens</a></li>
+						<li><a href="" >Privacy policy</a></li>
+						<li><a href="" >Pesonal data protection policy</a></li>
+						<li><a href="" >Cookies policy</a></li>
+						<li><a href="" >Reviews policy</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

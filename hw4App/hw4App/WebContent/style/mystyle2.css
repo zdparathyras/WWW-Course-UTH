@@ -1,0 +1,155 @@
+body{
+	background-color:#d9d9d9;
+	color:#555;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:1.6em;
+	margin: 0;
+}
+
+#mainHeader{
+	background-color:#7c0e0e;
+	color:#fff;
+}
+
+#mainHeader h1{
+	padding: 0;
+	text-align: center;
+}
+
+.container{
+	width:100%;
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+}
+
+.colum{
+	background-color: white;
+	margin: 10px 0 0 5px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	flex: 50%;
+	border-radius: 4px;
+	color: black;
+}
+
+.row{
+	margin:0 10px;
+	display: flex;
+}
+
+.row2{
+	margin: 5px 0 5px 5px ;
+	border-radius: 4px;
+	color: black;
+	width: 90%;
+	margin-left: 30px;
+}
+
+.astore{
+	height: 160px;
+}
+
+.food_cat{
+	height: 160px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	color: black;
+}
+
+.astore h3{
+	margin-top: 10px;
+	text-align: center;
+}
+
+.astore h5{
+	text-align: center;
+}
+
+.astore img{
+	width: 170px;
+	height: 140px;
+	margin: 10px 10px 0px 10px;
+	border-radius: 4px;
+}
+
+.column1{
+	height: fit-content;
+	background-color: white;
+	margin: 10px 0 0 5px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	flex: 20%;
+	border-radius: 4px;
+	color: black;
+}
+
+.column1 h4{
+	margin-left: 10px;
+	margin-top: 0;
+}
+
+.column2{
+	background-color: white;
+	margin: 10px 0 0 5px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	flex: 80%;
+	border-radius: 4px;
+	color: black;
+}
+
+.column1 input{
+	margin-left: 10px;
+}
+
+.column3{
+	margin: 10px 0 0 0px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0px 3px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	color: black;
+	flex: 10%;
+}
+
+.column5{
+	height: 350px;
+	background-color: white;
+	margin: 10px 0 0 0px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0px 3px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	color: black;
+	flex: 10%;
+}
+
+.column4{
+	margin: 10px 0 0 0px ;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0px 0px 3px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	color: black;
+	flex: 90%;
+}
+
+.store_desc{
+	width: 550px;
+	height: 200px;
+	background-color: white;
+	margin: auto;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 0px 3px rgba(0, 0, 0, 0.24);
+	border-radius: 4px;
+	color: black;
+}
+
+.store_desc h2, h4{
+	padding-top: 15px;
+	text-align: center;
+	color: black;
+}
+
+.categories_checkbox a{
+	margin-left: 15px;
+	display: block;
+}
+
+.categories_checkbox h4{
+	margin-left: 15px;
+}
+#output{display: none;}
+#result_meters{display: none;}
